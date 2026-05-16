@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback, memo } from "react";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import skyeraLogo from "./Skyeralogo.png";
+import skyeraLogo from "./SkyeraLogo.png";
 import heroBackgroundImage from "./herobgimage.png";
 import {
   PersonIcon,
